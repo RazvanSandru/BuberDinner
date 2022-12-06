@@ -13,12 +13,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuberDinner.Domain", "Buber
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requests", "Requests", "{41C73676-3306-4816-AA23-E9AB2612D258}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuberDinner.Api", "BuberDinner.Api\BuberDinner.Api.csproj", "{27AF4FF9-2CFD-4676-BCB3-B3C1823476C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuberDinner.Api", "BuberDinner.Api\BuberDinner.Api.csproj", "{27AF4FF9-2CFD-4676-BCB3-B3C1823476C7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentication", "Authentication", "{0AB9322B-B182-4599-BD77-B49BA67FB6B1}"
 	ProjectSection(SolutionItems) = preProject
 		Login.http = Login.http
 		Register.http = Register.http
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dinners", "Dinners", "{800643F6-C8AD-4FD3-8EC2-E21635394FD6}"
+	ProjectSection(SolutionItems) = preProject
+		GetDinners.http = GetDinners.http
 	EndProjectSection
 EndProject
 Global
@@ -53,6 +58,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0AB9322B-B182-4599-BD77-B49BA67FB6B1} = {41C73676-3306-4816-AA23-E9AB2612D258}
+		{800643F6-C8AD-4FD3-8EC2-E21635394FD6} = {41C73676-3306-4816-AA23-E9AB2612D258}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {40F00087-1B9B-4AF9-9402-060F063D742B}

@@ -1,9 +1,9 @@
-﻿using BuberDinner.Application.Interfaces.Persistence;
-using BuberDinner.Domain.Entities;
+﻿using BuberDinner.Domain.Entities;
 using BuberDinner.Domain.Common.Errors;
 using ErrorOr;
 using MediatR;
 using BuberDinner.Application.Authentication.Common;
+using BuberDinner.Application.Common.Interfaces.Persistence;
 
 namespace BuberDinner.Application.Authentication.Commands.Register;
 public class RegisterCommandHandler : 

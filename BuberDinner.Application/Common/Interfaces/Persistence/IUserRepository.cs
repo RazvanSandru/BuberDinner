@@ -1,6 +1,6 @@
 ﻿using BuberDinner.Domain.Entities;
 
-namespace BuberDinner.Application.Interfaces.Persistence;
+namespace BuberDinner.Application.Common.Interfaces.Persistence;
 public interface IUserRepository
 {
     void Add(User user);
